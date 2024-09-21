@@ -20,10 +20,38 @@
       host = "0.0.0.0";
       port = 8080;
       plugins = {
+        adapter-onebot = {
+          selfId = "*";
+          endpoint = "ws://*:*";
+          token = "*";
+          protocol = "ws";
+        };
+        minesweeper-ending = {
+          theme = "wom";
+        };
+        help-pro = {};
+        cube = {};
+        "@initencounter/koishi-plugin-jimp" = {};
+        puzzle = {};
+        furbot = {};
+        status-image = {};
+        sleep-manage = {};
+        cron = {};
+        gh-tile = {};
+        status-pro = {
+          botName = "小真寻";
+          command = "机机状态";
+        };
+        couplet = {};
+        davinci-003 = {
+          baseURL = "https://api.chatanywhere.com.cn";
+          key = "key-*";
+        };
+        ichess = {};
+        config = {};
         admin = {};
         bind = {};
         commands = {};
-        help = {};
         inspect = {};
         locales = {};
         rate-limit = {};
